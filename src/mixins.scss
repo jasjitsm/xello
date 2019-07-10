@@ -1,0 +1,19 @@
+/*---------------------------------------
+  imports
+---------------------------------------*/
+
+@import "~src/variables";
+
+/*---------------------------------------
+  global mixins
+---------------------------------------*/
+
+@mixin tooltipPlacementConfig($top, $right, $bottom, $left, $marginTop, $marginLeft, $borderWidth, $borderColor) {
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+  margin-left: $marginLeft;
+  border-width: $borderWidth;
+  border-color: $borderColor;
+}

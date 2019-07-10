@@ -4,9 +4,17 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+// Page Imports
+import { HomePageComponent } from '@pages/home-page/home-page.component';
+
+// Directive Imports
+import { TooltipDirective } from '@directives/tooltip.directive';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomePageComponent,
+    TooltipDirective
   ],
   imports: [
     BrowserModule,

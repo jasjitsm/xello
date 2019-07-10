@@ -1,0 +1,28 @@
+<main class="home" [ngClass]="{'home--accessible': accessibleTheme}">
+  <button
+  tabindex="3"
+  class="home__accessibility-toggle"
+  (click)="toggleAccessibility()">
+    Toggle High Contrast
+  </button>
+  <div class="buttons">
+    <button
+    tabindex="1"
+    class="buttons__single-button"
+    tooltip
+    tooltipText="Tooltip A"
+    tooltipPlacement="top"
+    tooltipDelay="500">
+      Button A
+    </button>
+    <button
+    tabindex="2"
+    class="buttons__single-button"
+    tooltip
+    tooltipText="Tooltip B"
+    tooltipPlacement="top"
+    tooltipDelay="500">
+      Button B
+    </button>
+  </div>
+</main>
